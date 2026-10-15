@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="External">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="External\DirectXTex">
+      <UniqueIdentifier>{832c8d5d-fbb9-4843-a413-8a8853f9f272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HLSL">
+      <UniqueIdentifier>{d9b3726d-8acf-41a5-b3ae-b67f29cc47ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{d6fe33f4-ff44-4310-b1e7-c683abbb76ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\imgui">
+      <UniqueIdentifier>{2d182985-07b8-46bf-a792-fbed5c2ea1cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Audio">
+      <UniqueIdentifier>{3ac34ea4-b8ea-439d-9503-b1a92d621258}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Camera">
+      <UniqueIdentifier>{e92f86cc-1410-4630-a112-1f3cbc3bb1b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Character">
+      <UniqueIdentifier>{d074d7c3-f16f-472f-b079-8fac7f3f715c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Collision">
+      <UniqueIdentifier>{d1fe469c-2182-4fe6-8346-1dc42d8db502}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Graphics">
+      <UniqueIdentifier>{685105a3-50a3-4218-b2b2-5c921a33a12b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Input">
+      <UniqueIdentifier>{d6d687da-e290-46bd-8a24-d610f9d4a5c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene">
+      <UniqueIdentifier>{44842659-8730-481f-bc00-296f5ed4c956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\System">
+      <UniqueIdentifier>{e4b25d9a-92b1-4ab3-9beb-a2473a52b24f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Stage">
+      <UniqueIdentifier>{67e80d5a-371b-4936-89bf-92483a2cd813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assignment">
+      <UniqueIdentifier>{d477e458-9632-467d-9e7d-479c4a528ea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assignment\01_Assignment">
+      <UniqueIdentifier>{d0e9abcf-afc7-4651-9771-96c822fef35e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assignment\02_Assignment">
+      <UniqueIdentifier>{c7cd5a97-1f92-48bc-addf-50f572471554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assignment\03_Assignment">
+      <UniqueIdentifier>{cd80900f-78d2-4ea8-abf7-82167a3d734a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assignment\04_Assignment">
+      <UniqueIdentifier>{f281f488-8c67-495a-b6d4-30699f57433e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assignment\05_Assignment">
+      <UniqueIdentifier>{a717f33a-4687-40ac-93a4-e81b063dbff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assignment\00Sample">
+      <UniqueIdentifier>{082bf685-ebcf-4401-9fa0-c07ca07198a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assignment\06_Assignment">
+      <UniqueIdentifier>{a05103bd-3307-402f-b0eb-92d1da088d79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assignment\07_Assignment">
+      <UniqueIdentifier>{079c0e05-ccc0-498b-b3e7-3031eb725673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assignment\08_Assignment">
+      <UniqueIdentifier>{6db2c525-5789-48d7-9050-d2d51feb522d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assignment\09_Assignment">
+      <UniqueIdentifier>{b1bfffa7-b3dc-48c3-9f96-d825bfe21395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assignment\10_Assignment">
+      <UniqueIdentifier>{657b3179-8b35-4fca-b4ba-c6d1edf375c9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Audio\Audio.cpp">
+      <Filter>Source\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Audio\AudioResource.cpp">
+      <Filter>Source\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Audio\AudioSource.cpp">
+      <Filter>Source\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\DebugRenderer.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Font.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Graphics.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\ImGuiRenderer.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\LambertShader.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\LineRenderer.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Model.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\ModelResource.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Graphics\Sprite.cpp">
+      <Filter>Source\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Input\GamePad.cpp">
+      <Filter>Source\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Input\Input.cpp">
+      <Filter>Source\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Input\Mouse.cpp">
+      <Filter>Source\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera\Camera.cpp">
+      <Filter>Source\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera\CameraController.cpp">
+      <Filter>Source\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\Framework.cpp">
+      <Filter>Source\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\System\Logger.cpp">
+      <Filter>Source\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\SceneTitle.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\SceneManager.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collision\Collision.cpp">
+      <Filter>Source\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Stage\Stage.cpp">
+      <Filter>Source\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="External\DirectXTex\WICTextureLoader.cpp">
+      <Filter>External\DirectXTex</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\imgui.cpp">
+      <Filter>External\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\imgui_demo.cpp">
+      <Filter>External\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\imgui_draw.cpp">
+      <Filter>External\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\imgui_widgets.cpp">
+      <Filter>External\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Character\Player.cpp">
+      <Filter>Source\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Character\JobClass.cpp">
+      <Filter>Source\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Character\Actor.cpp">
+      <Filter>Source\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\imgui_impl_dx11.cpp">
+      <Filter>External\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="External\imgui\imgui_impl_win32.cpp">
+      <Filter>External\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\Scene.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Assignment\01ClientAssignment.cpp">
+      <Filter>Source\Assignment\01_Assignment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Assignment\00ClientSample.cpp">
+      <Filter>Source\Assignment\00Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Assignment\02ClientAssignment.cpp">
+      <Filter>Source\Assignment\02_Assignment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Assignment\03ClientAssignment.cpp">
+      <Filter>Source\Assignment\03_Assignment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Assignment\04ClientAssignment.cpp">
+      <Filter>Source\Assignment\04_Assignment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Assignment\05ClientAssignment.cpp">
+      <Filter>Source\Assignment\05_Assignment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Assignment\06ClientAssignment.cpp">
+      <Filter>Source\Assignment\06_Assignment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Assignment\07ClientAssignment.cpp">
+      <Filter>Source\Assignment\07_Assignment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Assignment\08ClientAssignment.cpp">
+      <Filter>Source\Assignment\08_Assignment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Assignment\09ClientAssignment.cpp">
+      <Filter>Source\Assignment\09_Assignment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Assignment\10ClientAssignment.cpp">
+      <Filter>Source\Assignment\10_Assignment</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Audio\Audio.h">
+      <Filter>Source\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Audio\AudioResource.h">
+      <Filter>Source\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Audio\AudioSource.h">
+      <Filter>Source\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\DebugRenderer.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Font.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Graphics.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\ImGuiRenderer.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\LambertShader.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\LineRenderer.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Model.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\ModelResource.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\RenderContext.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Shader.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Graphics\Sprite.h">
+      <Filter>Source\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Input\GamePad.h">
+      <Filter>Source\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Input\Input.h">
+      <Filter>Source\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Input\Mouse.h">
+      <Filter>Source\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera\Camera.h">
+      <Filter>Source\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera\CameraController.h">
+      <Filter>Source\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\Framework.h">
+      <Filter>Source\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\HighResolutionTimer.h">
+      <Filter>Source\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\Logger.h">
+      <Filter>Source\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\System\Misc.h">
+      <Filter>Source\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\Scene.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\SceneTitle.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\SceneManager.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collision\Collision.h">
+      <Filter>Source\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stage\Stage.h">
+      <Filter>Source\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="External\DirectXTex\WICTextureLoader.h">
+      <Filter>External\DirectXTex</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imconfig.h">
+      <Filter>External\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imgui.h">
+      <Filter>External\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imgui_internal.h">
+      <Filter>External\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imstb_rectpack.h">
+      <Filter>External\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imstb_textedit.h">
+      <Filter>External\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imstb_truetype.h">
+      <Filter>External\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Character\Player.h">
+      <Filter>Source\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Character\JobClass.h">
+      <Filter>Source\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Character\Actor.h">
+      <Filter>Source\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imgui_impl_dx11.h">
+      <Filter>External\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="External\imgui\imgui_impl_win32.h">
+      <Filter>External\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Assignment\01ClientAssignment.h">
+      <Filter>Source\Assignment\01_Assignment</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Assignment\00ClientSample.h">
+      <Filter>Source\Assignment\00Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Assignment\02ClientAssignment.h">
+      <Filter>Source\Assignment\02_Assignment</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Assignment\03ClientAssignment.h">
+      <Filter>Source\Assignment\03_Assignment</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Assignment\04ClientAssignment.h">
+      <Filter>Source\Assignment\04_Assignment</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Assignment\05ClientAssignment.h">
+      <Filter>Source\Assignment\05_Assignment</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Assignment\06ClientAssignment.h">
+      <Filter>Source\Assignment\06_Assignment</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Assignment\07ClientAssignment.h">
+      <Filter>Source\Assignment\07_Assignment</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Assignment\08ClientAssignment.h">
+      <Filter>Source\Assignment\08_Assignment</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Assignment\09ClientAssignment.h">
+      <Filter>Source\Assignment\09_Assignment</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Assignment\10ClientAssignment.h">
+      <Filter>Source\Assignment\10_Assignment</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HLSL\Debug.hlsli">
+      <Filter>HLSL</Filter>
+    </None>
+    <None Include="HLSL\Font.hlsli">
+      <Filter>HLSL</Filter>
+    </None>
+    <None Include="HLSL\ImGui.hlsli">
+      <Filter>HLSL</Filter>
+    </None>
+    <None Include="HLSL\Lambert.hlsli">
+      <Filter>HLSL</Filter>
+    </None>
+    <None Include="HLSL\Line.hlsli">
+      <Filter>HLSL</Filter>
+    </None>
+    <None Include="HLSL\Sprite.hlsli">
+      <Filter>HLSL</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="HLSL\DebugPS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\DebugVS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\FontPS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\FontVS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\ImGuiPS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\ImGuiVS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\LambertPS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\LambertVS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\LinePS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\LineVS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\SpritePS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+    <FxCompile Include="HLSL\SpriteVS.hlsl">
+      <Filter>HLSL</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

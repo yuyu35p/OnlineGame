@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{f030c059-5dad-4e26-90c8-faffd416f8b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assignment">
+      <UniqueIdentifier>{6708d2d1-178b-4980-b910-44f898c3472f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assignment\00_Sample">
+      <UniqueIdentifier>{2192f729-6e97-4fc9-a56c-5d66fca559b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assignment\01_Assignment">
+      <UniqueIdentifier>{136e9818-5358-41f6-8c29-d7b9df863cd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assignment\02_Assignment">
+      <UniqueIdentifier>{15025858-7281-4d6e-a5e1-2a320d364c5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Character">
+      <UniqueIdentifier>{74feb347-9d86-4525-b71c-e752c833b4df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assignment\03_Assignment">
+      <UniqueIdentifier>{41a6b6b9-467b-4c69-9cb8-28a556fa0f7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assignment\04_Assignment">
+      <UniqueIdentifier>{b3eb9191-e276-4c09-aa8e-20924751f922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assignment\05_Assignment">
+      <UniqueIdentifier>{ffd17497-0b96-4575-9587-66d7411913fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assignment\06_Assignment">
+      <UniqueIdentifier>{1cdd5c07-6c27-4ad9-af54-78724bb6fe26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assignment\07_Assignment">
+      <UniqueIdentifier>{0e10b202-7e53-4c0b-b2bb-fe1465204751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assignment\08_Assignment">
+      <UniqueIdentifier>{84cc2e98-bc58-4c88-b25e-bbc0d82ffd39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Assignment\09_Assignment">
+      <UniqueIdentifier>{3f51514e-5ebb-4872-9ff7-b94d3d4a9742}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\01ServerAssignment.cpp">
+      <Filter>Source\Assignment\01_Assignment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\00ServerSample.cpp">
+      <Filter>Source\Assignment\00_Sample</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\02ServerAssignment.cpp">
+      <Filter>Source\Assignment\02_Assignment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player.cpp">
+      <Filter>Source\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\03ServerAssignment.cpp">
+      <Filter>Source\Assignment\03_Assignment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\04ServerAssignment.cpp">
+      <Filter>Source\Assignment\04_Assignment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\05ServerAssignment.cpp">
+      <Filter>Source\Assignment\05_Assignment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\06ServerAssignment.cpp">
+      <Filter>Source\Assignment\06_Assignment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\07ServerAssignment.cpp">
+      <Filter>Source\Assignment\07_Assignment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\08ServerAssignment.cpp">
+      <Filter>Source\Assignment\08_Assignment</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\09ServerAssignment.cpp">
+      <Filter>Source\Assignment\09_Assignment</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\01ServerAssignment.h">
+      <Filter>Source\Assignment\01_Assignment</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\00ServerSample.h">
+      <Filter>Source\Assignment\00_Sample</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\02ServerAssignment.h">
+      <Filter>Source\Assignment\02_Assignment</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player.h">
+      <Filter>Source\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\03ServerAssignment.h">
+      <Filter>Source\Assignment\03_Assignment</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\04ServerAssignment.h">
+      <Filter>Source\Assignment\04_Assignment</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\05ServerAssignment.h">
+      <Filter>Source\Assignment\05_Assignment</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\06ServerAssignment.h">
+      <Filter>Source\Assignment\06_Assignment</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\07ServerAssignment.h">
+      <Filter>Source\Assignment\07_Assignment</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\08ServerAssignment.h">
+      <Filter>Source\Assignment\08_Assignment</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\09ServerAssignment.h">
+      <Filter>Source\Assignment\09_Assignment</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
