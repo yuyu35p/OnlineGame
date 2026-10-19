@@ -26,9 +26,6 @@ public:
 	static void Disconnect(MrsConnection connection, void* connection_data);
 	static void ReadRecord(MrsConnection connection, void* connection_data, uint32 seqnum, uint16 options, uint16 payload_type, const void* payload, uint32 payload_len);
 
-	//タイマーあり更新関数
-	//void Update(float elapsedTime);
-
 	// 送信データタグ
 	enum class NetworkTag : uint16
 	{
